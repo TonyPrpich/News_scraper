@@ -34,7 +34,7 @@ $(document).on("click", "li", function () {
             if (data.note) {
 
                 $("#titleinput").val(data.note.title);
-                /
+
                 $("#bodyinput").val(data.note.body);
             }
         });
